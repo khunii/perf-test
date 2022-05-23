@@ -1,4 +1,5 @@
 pipeline{
+    agent any
     environment{
         Thread_Group='100'
         Ramp_Up = '50'
