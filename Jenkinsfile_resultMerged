@@ -15,13 +15,15 @@ pipeline{
             steps{
                 sh "/usr/local/bin/jmeter -Jjmeter.save.saveservice.output_format=xml \
                 -JThreadGroup=${env.Thread_Group} -JRampUp=${env.Ramp_Up} \
-                -n -t script/first.jmx -l report/first_${env.BUILD_NUMBER}.jtl"
+                -n -t script/first.jmx -l report/first.jtl"
             }
         }
         stage('report test'){
             steps{
-                perfReport showTrendGraphs: true, sourceDataFiles: "report/first_${env.BUILD_NUMBER}.jtl"
+                perfReport showTrendGraphs: true, sourceDataFiles: "report/first.jtl"
+                //performanceReport showTrendGraphs: true, sourceDataFiles: "report/first_${env.BUILD_NUMBER}.jtl"
                 archiveArtifacts '**/*.jtl, **/jmeter.log'
+                //archiveArtifacts 'report/first*.jtl, ./jmeter.log' //이렇게 해도 될 듯 
             }
         }
     }
