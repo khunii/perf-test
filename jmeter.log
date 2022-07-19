@@ -1,0 +1,20 @@
+2022-07-20 07:17:06,195 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-07-20 07:17:06,220 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.4.3/libexec/bin/user.properties
+2022-07-20 07:17:06,221 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.4.3/libexec/bin/system.properties
+2022-07-20 07:17:06,231 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-07-20 07:17:06,231 INFO o.a.j.JMeter: Version 5.4.3
+2022-07-20 07:17:06,231 INFO o.a.j.JMeter: java.version=18.0.1
+2022-07-20 07:17:06,231 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-07-20 07:17:06,231 INFO o.a.j.JMeter: os.name=Mac OS X
+2022-07-20 07:17:06,232 INFO o.a.j.JMeter: os.arch=x86_64
+2022-07-20 07:17:06,232 INFO o.a.j.JMeter: os.version=11.6.5
+2022-07-20 07:17:06,232 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-07-20 07:17:06,232 INFO o.a.j.JMeter: java.awt.headless=null
+2022-07-20 07:17:06,232 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-07-20 07:17:06,232 INFO o.a.j.JMeter: Available Processors =8
+2022-07-20 07:17:06,242 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-07-20 07:17:06,242 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-07-20 07:17:06,242 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.4.3/libexec
+2022-07-20 07:17:06,242 INFO o.a.j.JMeter: user.dir  =/Users/koon/workspaces/cicd/perf-test
+2022-07-20 07:17:06,243 INFO o.a.j.JMeter: PWD       =/Users/koon/workspaces/cicd/perf-test
+2022-07-20 07:17:06,244 INFO o.a.j.JMeter: IP: 218.38.137.28 Name: chester-MacBookPro.local FullName: 218.38.137.28

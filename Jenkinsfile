@@ -24,7 +24,9 @@ pipeline{
                 // sh "/usr/local/bin/jmeter \
                 // -n -t ./script/sprint-test.jmx -l ./report/sprint_result_${env.BUILD_NUMBER}.jtl"
                 //---
-                sh "/usr/local/bin/jmeter -n -t ./script/sprint-test.jmx -l logfile2.jtl -e -o ./report/sprint_result_${env.BUILD_NUMBER}.jtl"
+                // sh "/usr/local/bin/jmeter -n -t ./script/sprint-test.jmx -l logfile2.jtl -e -o ./report/sprint_result_${env.BUILD_NUMBER}.jtl"
+                //--
+                sh "/usr/local/bin/jmeter -n -t ./script/sprint-test.jmx -l logfile2.jtl -e -o ./report"
                 //--
                 //sh "/usr/local/bin/jmeter -n -t ./script/sprint-test.jmx -l logfile.jtl"
 
