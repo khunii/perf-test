@@ -9,7 +9,7 @@ pipeline{
         stage('Clone Test'){
             steps{
                 //git branch: 'main', url: 'https://github.com/khunii/perf-test.git'
-                git Clone 'https://github.com/khunii/perf-test.git'
+                git clone 'https://github.com/khunii/perf-test.git'
             }
         }
         stage('execute test'){
