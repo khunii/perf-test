@@ -13,7 +13,7 @@ pipeline{
         }
         stage('execute test'){
             steps{
-                sh "/usr/local/bin/jmeter -Jjmeter.save.saveservice.output_format=xml \
+                sh "/usr/local/bin/jmeter -J jmeter.save.saveservice.output_format=xml \
                 -JThreadGroup=${env.Thread_Group} -JRampUp=${env.Ramp_Up} \
                 -n -t ./script/sprint-test.jmx -l ./report/sprint_result_${env.BUILD_NUMBER}.jtl"
             }
