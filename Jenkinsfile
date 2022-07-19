@@ -20,7 +20,7 @@ pipeline{
         }
         stage('report test'){
             steps{
-                perfReport showTrendGraphs: true, sourceDataFiles: "report/sprint_result_${env.BUILD_NUMBER}.jtl"
+                perfReport filterRegex:'', showTrendGraphs: true, sourceDataFiles: "report/sprint_result_${env.BUILD_NUMBER}.jtl"
                 archiveArtifacts '**/*.jtl, **/jmeter.log'
             }
         }
